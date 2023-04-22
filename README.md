@@ -1,29 +1,29 @@
-\033[1;34m    /\_/\  \n\033[1;31m   ( o   o ) \n\033[1;32m  (   =^=   ) \n\033[1;35m   (\"\_\"_)  \033[0m
+<h2 style="color:blue;">Hospital Resource Management Shiny App</h2>
 
-\033[1mHospital Resource Management Shiny App\033[0m
+<p>This is a Shiny app designed to help hospital staff manage hospital resources. The app has three tabs: "Admissions," "Bed Availability," and "Staff Workload."</p>
 
-This is a Shiny app designed to help hospital staff manage hospital resources. The app has three tabs: "Admissions," "Bed Availability," and "Staff Workload."
+<h3 style="color:green;">Features</h3>
 
-\033[1mFeatures\033[0m
+<ul>
+<li>The "Admissions" tab displays a table of patient admissions data, including patient ID, age, gender, department, admission date, length of stay, doctor, and bed type.</li>
+<li>The "Bed Availability" tab displays a bar chart of bed availability by bed type.</li>
+<li>The "Staff Workload" tab displays a bar chart of the number of patients assigned to each doctor.</li>
+</ul>
 
-- The "Admissions" tab displays a table of patient admissions data, including patient ID, age, gender, department, admission date, length of stay, doctor, and bed type.
-- The "Bed Availability" tab displays a bar chart of bed availability by bed type.
-- The "Staff Workload" tab displays a bar chart of the number of patients assigned to each doctor.
+<h3 style="color:red;">Installation and Usage</h3>
 
-\033[1mInstallation and Usage\033[0m
+<p>To use this app, you will need to have R and the following packages installed: <code>shiny</code>, <code>shinydashboard</code>, <code>DT</code>, <code>dplyr</code>, and <code>ggplot2</code>.</p>
 
-To use this app, you will need to have R and the following packages installed: `shiny`, `shinydashboard`, `DT`, `dplyr`, and `ggplot2`.
+<p>Once you have the necessary packages installed, you can run the app by opening the <code>app.R</code> file in RStudio and clicking the "Run App" button.</p>
 
-Once you have the necessary packages installed, you can run the app by opening the `app.R` file in RStudio and clicking the "Run App" button.
+<h3 style="color:purple;">Data Input</h3>
 
-\033[1mData Input\033[0m
+<p>The app uses sample data to demonstrate its functionality. You can replace this data with your own data by modifying the <code>sample_data</code> data frame in the <code>app.R</code> file.</p>
 
-The app uses sample data to demonstrate its functionality. You can replace this data with your own data by modifying the `sample_data` data frame in the `app.R` file.
+<h3 style="color:orange;">Acknowledgements</h3>
 
-\033[1mAcknowledgements\033[0m
+<p>This app was created by ChatGPT, a large language model trained by OpenAI, based on the GPT-3.5 architecture.</p>
 
-This app was created by ChatGPT, a large language model trained by OpenAI, based on the GPT-3.5 architecture.
+<h3 style="color:brown;">License</h3>
 
-\033[1;36mLicense\033[0m
-
-This app is licensed under the MIT License. See the LICENSE file for more information.
+<p>This app is licensed under the MIT License. See the LICENSE file for more information.</p>
