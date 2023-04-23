@@ -20,6 +20,4 @@
 
 <p>The app uses sample data to demonstrate its functionality. You can replace this data with your own data by modifying the <code>sample_data</code> data frame in the <code>app.R</code> file.</p>
 
-<h3 style="color:brown;">License</h3>
 
-<p>This app is licensed under the MIT License. See the LICENSE file for more information.</p>
