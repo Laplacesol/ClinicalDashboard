@@ -1,4 +1,4 @@
-<h2 style="color:blue;">Hospital Resource Management Shiny App</h2>
+<h2 style="color:blue;">Hospital Resource Management - Shiny App</h2>
 
 <p>This is a Shiny app designed to help hospital staff manage hospital resources. The app has three tabs: "Admissions," "Bed Availability," and "Staff Workload."</p>
 
